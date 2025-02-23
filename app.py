@@ -174,4 +174,4 @@ def get_fire_image(filename):
     return send_file(img_path) if os.path.exists(img_path) else jsonify({"error": "Image not found"}), 404
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
