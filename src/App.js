@@ -8,7 +8,7 @@ import { Flame, GaugeCircle,AlertTriangle  } from "lucide-react";
 const Pages = {
   Home: () => (
     <div className="max-w-7xl mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold text-gray-900">Welcome to Metro Transit</h1>
+      <h1 className="text-4xl font-bold text-gray-900">Welcome to MetroAI Vision</h1>
     </div>
   ),
 
@@ -74,7 +74,7 @@ const Navbar = ({ currentPage, setCurrentPage }) => (
     <div className="max-w-7xl mx-auto px-4">
       <div className="flex justify-between items-center h-16">
         <div className="flex-shrink-0 flex items-center">
-          <span className="text-2xl font-bold text-blue-600">Metro Transit</span>
+          <span className="text-2xl font-bold text-blue-600">MetroAI Vision</span>
         </div>
         <ul className="flex space-x-4">
           <NavLink to="home" icon={Home} currentPage={currentPage} setCurrentPage={setCurrentPage}>Home</NavLink>
